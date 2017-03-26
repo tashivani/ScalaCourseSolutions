@@ -4,8 +4,8 @@
 		module="example-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170326032333"
-		e:sbtVersion="0.13" e:scalaVersion="2.10"
+		publication="20170326033403"
+		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
 		example-build
@@ -36,7 +36,7 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.5" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.5" conf="scala-tool->default,optional(default);provided->default(compile)"/>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.9" conf="provided->default(compile)"/>
-		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="4.0.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="4.0.0" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 		<dependency org="org.scalastyle" name="scalastyle_2.10" rev="0.8.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalaj" name="scalaj-http_2.10" rev="2.2.1" conf="compile->default(compile)"/>
 		<dependency org="commons-codec" name="commons-codec" rev="1.10" conf="compile->default(compile)"/>
